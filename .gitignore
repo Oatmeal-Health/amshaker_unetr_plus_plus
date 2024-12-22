@@ -1,0 +1,20 @@
+# Ignore Python bytecode and cache files
+*.pyc
+__pycache__/
+
+# Ignore any .log files
+*.log
+
+# Ignore environment files
+.env
+malignancy-classification/all-attributes/model_weights.torch
+
+# Ignore image files
+*.png
+
+# Output dir
+Output
+mlruns
+
+# imported repositories
+amshaker_unetr_plus_plus
